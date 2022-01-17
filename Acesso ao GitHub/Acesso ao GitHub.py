@@ -31,8 +31,8 @@ class ChromeAuto:
             senha = self.chrome.find_element_by_id("password")
             sleep(0.2)
             btn_login = self.chrome.find_element_by_name("commit")
-            usuario.send_keys("meisonwilliams13@gmail.com")
-            senha.send_keys("meisonwilliamstricolor$*@")
+            usuario.send_keys("seu_email")
+            senha.send_keys("sua_senha")
             sleep(1)
             btn_login.click()
         except Exception as erro:
